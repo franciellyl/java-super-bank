@@ -5,9 +5,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Conta {
+public class Account {
     private String numeroConta;
     private String agencia;
-    private Cliente correntista;
+    private Client correntista;
     private Double valorConta;
 }
