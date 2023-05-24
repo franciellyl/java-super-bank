@@ -1,4 +1,12 @@
 package superbank.service.impl;
 
-public class AccountProcessorServiceImpl {
+import superbank.model.Client;
+import superbank.service.AccountProcessorService;
+
+public class AccountProcessorServiceImpl implements AccountProcessorService {
+
+    @Override
+    public void newClient(Client client) {
+
+    }
 }

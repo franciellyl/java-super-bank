@@ -9,6 +9,5 @@ public class Client {
     private String nome;
     private String dataNascimento;
     private String cpf;
-    private String cep;
     private String profissao;
 }
