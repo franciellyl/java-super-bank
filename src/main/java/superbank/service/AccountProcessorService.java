@@ -1,9 +1,9 @@
 package superbank.service;
 
 import org.springframework.stereotype.Component;
-import superbank.model.Client;
+import superbank.model.ClientDTO;
 
 @Component
 public interface AccountProcessorService {
-    void newClient(Client client);
+    void newClient(ClientDTO clientDTO);
 }

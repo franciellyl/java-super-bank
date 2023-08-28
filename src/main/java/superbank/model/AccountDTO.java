@@ -5,9 +5,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Account {
+public class AccountDTO {
     private String numeroConta;
     private String agencia;
-    private Client correntista;
+    private ClientDTO correntista;
     private Double valorConta;
 }
